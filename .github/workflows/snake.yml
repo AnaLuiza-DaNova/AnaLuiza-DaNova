@@ -13,23 +13,29 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout main
-        uses: actions/checkout@v4
-        with:
-          ref: main
-
-      - name: Generate Snake Animation
+      # 1. Gera a cobrinha num diretório temporário (/tmp/snake)
+      - name: Generate Snake
         uses: Platane/snk@v3
         with:
           github_user_name: AnaLuiza-DaNova
-          outputs: dist/snake.svg
+          outputs: /tmp/snake.svg
 
+      # 2. Checkout da branch output
       - name: Checkout output branch
         uses: actions/checkout@v4
         with:
           ref: output
 
-      - name: Copy snake to output
+      # 3. Copia o snake.svg gerado do /tmp para o repo
+      - name: Move generated file
         run: |
           mkdir -p dist
-          cp ${{ github.workspace }}/dist/snake.svg dist/snake.svg
+          cp /tmp/snake.svg dist/snake.svg
+
+      # 4. Commit
+      - name: Commit and push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update snake"
+          branch: output
+          file_pattern: dist/snake.svg
