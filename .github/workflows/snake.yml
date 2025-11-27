@@ -13,12 +13,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Gera a cobrinha num diretório temporário (/tmp/snake)
+      # 1. Gera a cobrinha num repositório temporário
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
           github_user_name: AnaLuiza-DaNova
-          outputs: /tmp/snake.svg
+          empty_repo: true
+          outputs: snake.svg
 
       # 2. Checkout da branch output
       - name: Checkout output branch
@@ -26,14 +27,14 @@ jobs:
         with:
           ref: output
 
-      # 3. Copia o snake.svg gerado do /tmp para o repo
+      # 3. Copia o snake.svg gerado para a pasta dist/
       - name: Move generated file
         run: |
           mkdir -p dist
-          cp /tmp/snake.svg dist/snake.svg
+          cp snake.svg dist/snake.svg
 
-      # 4. Commit
-      - name: Commit and push
+      # 4. Commit automático
+      - name: Commit and push snake.svg
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update snake"
