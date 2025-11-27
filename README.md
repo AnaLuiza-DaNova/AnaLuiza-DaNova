@@ -31,5 +31,6 @@
 ---
 
 
-![snake gif](https://raw.githubusercontent.com/AnaLuiza-DaNova/AnaLuiza-DaNova/output/github-contribution-grid-snake.svg)
+![snake gif](https://raw.githubusercontent.com/AnaLuiza-DaNova/AnaLuiza-DaNova/output/snake.svg)
+
 
