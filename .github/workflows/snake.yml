@@ -23,4 +23,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: github-contribution-grid-snake
-          path: dist/github-contribution-grid-snake.svg
+          path: output/github-contribution-grid-snake.svg
