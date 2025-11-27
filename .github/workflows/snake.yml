@@ -2,8 +2,11 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+    - cron: "0 0 * * *"  # roda todo dia
+  workflow_dispatch:     # botão "Run workflow"
+
+permissions:
+  contents: write   # PERMISSÃO PRA FAZER PUSH
 
 jobs:
   build:
@@ -13,19 +16,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate Snake SVG
-        uses: Platane/snk/svg-only@v3
+      - name: Generate Snake
+        uses: Platane/snk@v3
         with:
           github_user_name: AnaLuiza-DaNova
           outputs: dist/snake.svg
 
-      - name: Upload Snake
-        uses: actions/upload-artifact@v4
-        with:
-          name: snake
-          path: dist/snake.svg
-
-      - name: Push Snake to output branch
+      - name: Commit and push snake.svg
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update snake"
