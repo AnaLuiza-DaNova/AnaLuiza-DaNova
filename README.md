@@ -30,8 +30,8 @@
 
 ---
 
-
 ![snake gif](https://raw.githubusercontent.com/AnaLuiza-DaNova/AnaLuiza-DaNova/output/dist/snake.svg)
+
 
 
 
