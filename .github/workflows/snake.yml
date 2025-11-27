@@ -1,26 +1,26 @@
 name: Generate Snake
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *" 
+  workflow_dispatch: 
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate snake animation
-        uses: Platane/snk@main
+      - name: Generate Snake
+        uses: Platane/snk@v3
         with:
-          github_user_name: AnaLuiza-DaNova
-          outputs: dist/snake.svg
+          github_user_name: SEU_USUARIO
+          outputs: |
+            dist/github-contribution-grid-snake.svg
 
-      - name: Upload the snake SVG as an artifact
+      - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: snake
-          path: dist/snake.svg
+          name: github-contribution-grid-snake
+          path: dist/github-contribution-grid-snake.svg
