@@ -1,4 +1,4 @@
-<h1 align="center">👋 Olá! Eu sou a Ana Luíza</h1>
+<h1 align="center"> Oi oi! Eu sou a Ana Luíza! </h1>
 
 <p align="center">
   Estudante do 8º ano, interessada em lógica, matemática e desenvolvimento.  
@@ -27,7 +27,7 @@
 
 ---
 
-## 🧪 Programas e cursos
+## 🧪 Programas e cursos que participei/participo
 - Code Queens  
 - PIC – Programa de Iniciação Científica Jr.  
 - Neps Academy  
