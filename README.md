@@ -1,33 +1,28 @@
-<h1 align="center"> Oi oi! Eu sou a Ana Luíza! </h1>
+<h1 align="center">Oi oi! Eu sou a Ana Luíza!</h1>
 
 <p align="center">
-  Estudante do 8º ano, interessada em lógica, matemática e desenvolvimento.  
-  Sempre buscando aprender e melhorar.
+  Estudante do 8º ano com interesse em lógica, matemática e desenvolvimento web.  
+  Explorando programação e construindo meus primeiros projetos.
 </p>
 
 ---
 
 ## 🌸 Sobre mim
-- 📚 Sempre fui curiosa e gosto de entender o *porquê* das coisas
-- 🧩 Amo lógica, matemática e resolver problemas  
-- 💻 Estudo programação e quero crescer muito nessa área 
-- 🎧 Webtoons, música e livros me acompanham no tempo livre  
+- Sempre fui curiosa e gosto de entender o *porquê* das coisas
+- Amo lógica, matemática, resolver problemas e inglês
+- Estudo programação e quero crescer muito nessa área
+- Webtoons, música e livros me acompanham no tempo livre
 
----
+
 
 ## 🚀 Tecnologias que estudo
 <p align="center">
   <img src="https://skillicons.dev/icons?i=js,c,html,css,nodejs,git,mysql" />
 </p>
 
----
 
-## 🎯 Interesses
-• **Matemática** • **Programação** • **Inglês** • **Jogos** • **Livros** • **Webtoons** • **Música**
 
----
-
-## 🧪 Programas e cursos que participei/participo
+## 🎯 Programas e cursos
 - Code Queens  
 - PIC – Programa de Iniciação Científica Jr.  
 - Neps Academy  
@@ -35,13 +30,5 @@
 
 ---
 
-## 📊 Estatísticas
-<p align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=AnaLuiza-DaNova&show_icons=true&theme=tokyonight&hide_title=true" />
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnaLuiza-DaNova&layout=compact&theme=tokyonight" />
-</p>
 
----
-
-## 📫 Contato
-**Analuizammn1@gmail.com**
+![Snake animation](https://raw.githubusercontent.com/AnaLuiza-DaNova/AnaLuiza-DaNova/output/github-contribution-grid-snake-dark.svg)
