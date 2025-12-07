@@ -26,7 +26,7 @@
 - Code Queens  
 - PIC – Programa de Iniciação Científica Jr.  
 - Neps Academy  
-- Processo seletivo da Behring Academy  
+- Behring Academy  
 
 ---
 
