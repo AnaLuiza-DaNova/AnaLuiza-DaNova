@@ -1,7 +1,7 @@
 <h1 align="center">Oi oi! Eu sou a Ana Luíza!</h1>
 
 <p align="center">
-  Estudante do 8º ano com interesse em lógica, matemática e desenvolvimento web.  
+  Estudante do 9º ano com interesse em lógica, matemática e desenvolvimento web.  
   Explorando programação e construindo meus primeiros projetos.
 </p>
 
